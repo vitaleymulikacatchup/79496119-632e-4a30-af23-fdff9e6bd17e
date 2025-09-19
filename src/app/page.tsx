@@ -36,7 +36,6 @@ export default function Home() {
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D
           variant="simple"
-          steps={[{ title: 'Create an Account', description: 'Sign up and verify your identity.', image: '/images/placeholder1.avif', position: 'left', isCenter: false }, { title: 'Fund Your Wallet', description: 'Add funds using secure payment methods.', image: '/images/placeholder2.avif', position: 'center', isCenter: true }, { title: 'Purchase SnackCoin', description: 'Buy SnackCoin and enjoy your snacks!', image: '/images/placeholder3.avif', position: 'right', isCenter: false }]}
         />
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
